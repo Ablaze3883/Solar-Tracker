@@ -2,15 +2,15 @@
 
 ## 💡 Inspiration
 
-Solar panels are a great way to power your home. But due to the lack of sunlight or the sun changing its position repeatedly, they can be difficult to operate. The Sun Tracking Solar Panel is a solar panel that tracks the sun and automatically adjusts the panel's orientation to face the sun. It also automatically adjusts the panel's postion to adjust for the sun's intensity to give out maximum energy gain.
+Solar panels are a great way to power your home. But due to the lack of sunlight or the sun changing its position repeatedly, they can be difficult to operate. The Sun Tracking Solar Panel is a solar panel that tracks the sun and automatically adjusts the panel's orientation to face the sun. It also automatically adjusts the panel's position to adjust for the sun's intensity to give out maximum energy gain.
 
 ## 💻 What it does
 
-Solar Tracker tracks the position of the sun and recalibrates the solar panel's postion to give maximum efficiency. We are using Aurdino to read the data from the sensor and change the postion of the solar panel . The photoelectric cells are set around the solar panel and are connected to the Arduino. Arduino uses the data provided by the sensor to calculate the angle of the solar panel and then recalibrate the solar panel to the direction of the sun.
+Solar Tracker tracks the position of the sun and recalibrates the solar panel's position to give maximum efficiency. We are using Aurdino to read the data from the sensor and change the position of the solar panel. The photoelectric cells are set around the solar panel and are connected to the Arduino. Arduino uses the data provided by the sensor to calculate the angle of the solar panel and then recalibrate the solar panel to the direction of the sun.
 
 ## ⚙️ How we built it
 
-- Arduino Uno: For receiving the data from the Photoelectric sensor and recalibrating the solar panel 
+- Arduino Uno: For receiving the data from the Photoelectric sensor and recalibrating the solar panel
 - Servo: For the panel to be able to rotate
 - Photoelectric: For the sensor to track the sunlight
 - Solar Panel: For the panel to be able to absorb the sunlight
