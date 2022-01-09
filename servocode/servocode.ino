@@ -1,5 +1,4 @@
 #include <Servo.h>
-//definiamo i servomotori orizzontale e verticale
 Servo servohori;
 int servoh = 0;
 int servohLimitHigh = 160;
@@ -9,11 +8,10 @@ Servo servoverti;
 int servov = 0; 
 int servovLimitHigh = 160;
 int servovLimitLow = 60;
-//Pin fotoresistenze
-int ldrtopl = 2; //top left 
-int ldrtopr = 1; //top right 
-int ldrbotl = 3; // bottom left 
-int ldrbotr = 0; // bottom right 
+int ldrtopl = 2;
+int ldrtopr = 1;
+int ldrbotl = 3; 
+int ldrbotr = 0;
 
  void setup () 
  {
@@ -30,16 +28,14 @@ void loop()
 {
   servoh = servohori.read();
   servov = servoverti.read();
-  //Valore Analogico delle fotoresistenza
   int topl = analogRead(ldrtopl);
   int topr = analogRead(ldrtopr);
   int botl = analogRead(ldrbotl);
   int botr = analogRead(ldrbotr);
-  // Calcoliamo una Media
-  int avgtop = (topl + topr) ; //average of top 
-  int avgbot = (botl + botr) ; //average of bottom 
-  int avgleft = (topl + botl) ; //average of left 
-  int avgright = (topr + botr) ; //average of right 
+  int avgtop = (topl + topr) ;
+  int avgbot = (botl + botr) ;
+  int avgleft = (topl + botl) ;
+  int avgright = (topr + botr) ;
 
   if (avgtop < avgbot)
   {
