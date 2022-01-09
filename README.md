@@ -2,7 +2,7 @@
 
 ## 💡 Inspiration
 
-Solar panels are a great way to power your home. But due to the lack of sunlight or the sun changing its position repeatedly, they can be difficult to operate. The Sun Tracking Solar Panel is a solar panel that tracks the sun and automatically adjusts the panel's orientation to face the sun. It also automatically adjusts the panel's power to match the sun's intensity to give maximum power output.
+Solar panels are a great way to power your home. But due to the lack of sunlight or the sun changing its position repeatedly, they can be difficult to operate. The Sun Tracking Solar Panel is a solar panel that tracks the sun and automatically adjusts the panel's orientation to face the sun. It also automatically adjusts the panel's postion to get the sun's intensity to give maximum power output.
 
 ## 💻 What it does
 
@@ -10,8 +10,8 @@ Solar Tracker tracks the position of the sun and recalibrates the solar panel in
 
 ## ⚙️ How we built it
 
-- Arduino Uno: For receiving the data from the Photoelectric sensor and recalibrating the solar panel for maximum efficiency
-- C#: For the Arduino coding
+- Arduino Uno: For receiving the data from the Photoelectric sensor and recalibrating the solar panel 
+- C++: For the Arduino coding
 - Servo: For the panel to be able to rotate
 - Photoelectric: For the sensor to track the sunlight
 - Solar Panel: For the panel to be able to absorb the sunlight
