@@ -10,7 +10,7 @@ Solar Tracker tracks the position of the sun and recalibrates the solar panel in
 
 ## ⚙️ How we built it
 
-- Arduino Uno: For receiving the data from the Photoelectric sensor and recalibrating the solar panel
+- Arduino Uno: For receiving the data from the Photoelectric sensor and recalibrating the solar panel for maximum efficiency
 - C#: For the Arduino coding
 - Servo: For the panel to be able to rotate
 - Photoelectric: For the sensor to track the sunlight
